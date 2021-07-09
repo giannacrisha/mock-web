@@ -295,9 +295,15 @@ a {
     z-index: 1;}
 }
 @keyframes bookOpen150deg {
-  30% { z-index: 999 }
+	0% {
+		opacity: 100%;
+	}
+	30% {z-index: 999;}
+	50% {
+		opacity: 50%;
+	}
   100% {  transform: rotateY(150deg);
-    z-index: 999;}
+    z-index: 999; opacity: 0%;}
 }
 @keyframes bookOpen55deg {
   30% { z-index: 999 }
