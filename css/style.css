@@ -187,19 +187,19 @@ a {
 
 .quoteDIV h3 {
 	font-family: playfairReg;
-	color: white;
+	color: #89644D;
 	font-size: 20px;
 	line-height: 1;
 }
 
 .quoteDIV h3 a {
 	font-family: playfairItalic;
-	color: white;
+	color: #89644D;
 	transition: 0.5s;
 }
 
 .quoteDIV h3 a:hover {
-	color: #89644D;
+	color: #2F2520;
 }
 
 
