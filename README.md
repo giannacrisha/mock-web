@@ -15,4 +15,4 @@ This contains my:
 - Other Information
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)# giannacrisha.github.io
+[MIT](https://choosealicense.com/licenses/mit/)
