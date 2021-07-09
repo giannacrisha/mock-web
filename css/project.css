@@ -244,7 +244,7 @@ nav a:hover {
 
 .infoDIV {
 	display: none;
-	margin: 3rem;
+	margin-top: 3rem;
 }
 
 .infoDIV h2 a{
@@ -256,7 +256,6 @@ nav a:hover {
 	color: #e3e3e3;
 }
 
-
 .infoDIV h1 {
 	color: white;
 }
@@ -264,11 +263,11 @@ nav a:hover {
 .infoDIV h3 {
 	color: white;
 	font-family: montserratReg;
-	text-indent: 1in;
-	text-align: justify;
-	margin:  2rem 5rem -5rem 0;
 	line-height: 2;
-	overflow: hidden;
+	text-align: justify;
+	margin: 3rem 5rem 0 5rem;
+	text-indent: 1in;
+	font-size: 25px;
 }
 
 /* PROJECTS SIDE DIV */
