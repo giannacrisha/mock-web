@@ -1,10 +1,11 @@
-function hideRWD() {
-	var docs = document.getElementById("docsDIV");
-	var rwd = document.getElementById("rwdDIV");
-	var chem = document.getElementById("chemDIV");
-	var phys = document.getElementById("physDIV");
-	var y = document.getElementById("select");
+var docs = document.getElementById("docsDIV");
+var rwd = document.getElementById("rwdDIV");
+var chem = document.getElementById("chemDIV");
+var phys = document.getElementById("physDIV");
+var other = document.getElementById("othersDIV");
+var y = document.getElementById("select")
 
+function hideRWD() {
 	if (rwd.style.display === "block") {
 		rwd.style.display = "none";
 		y.style.display = "block";
@@ -14,16 +15,11 @@ function hideRWD() {
 		phys.style.display = "none";
 		chem.style.display = "none";
 		docs.style.display = "none";
+		other.style.display = "none";
 	}
 }
 
 function hideDocs() {
-	var docs = document.getElementById("docsDIV");
-	var rwd = document.getElementById("rwdDIV");
-	var chem = document.getElementById("chemDIV");
-	var phys = document.getElementById("physDIV");
-	var y = document.getElementById("select");
-
 	if (docs.style.display === "block") {
 		docs.style.display = "none";
 		y.style.display = "block";
@@ -33,16 +29,11 @@ function hideDocs() {
 		phys.style.display = "none";
 		rwd.style.display = "none";
 		chem.style.display = "none";
+		other.style.display = "none";
 	}
 }
 
 function hideChem() {
-	var docs = document.getElementById("docsDIV");
-	var rwd = document.getElementById("rwdDIV");
-	var chem = document.getElementById("chemDIV");
-	var phys = document.getElementById("physDIV");
-	var y = document.getElementById("select");
-
 	if (chem.style.display === "block") {
 		chem.style.display = "none";
 		y.style.display = "block";
@@ -52,16 +43,11 @@ function hideChem() {
 		phys.style.display = "none";
 		rwd.style.display = "none";
 		docs.style.display = "none";
+		other.style.display = "none";
 	}
 }
 
 function hidePhys() {
-	var docs = document.getElementById("docsDIV");
-	var rwd = document.getElementById("rwdDIV");
-	var chem = document.getElementById("chemDIV");
-	var phys = document.getElementById("physDIV");
-	var y = document.getElementById("select");
-
 	if (phys.style.display === "block") {
 		phys.style.display = "none";
 		y.style.display = "block";
@@ -71,9 +57,23 @@ function hidePhys() {
 		chem.style.display = "none";
 		rwd.style.display = "none";
 		docs.style.display = "none";
+		other.style.display = "none";
 	}
 }
 
+function hideOthers() {
+	if (other.style.display === "block") {
+		other.style.display = "none";
+		y.style.display = "block";
+	} else {
+		other.style.display = "block";
+		y.style.display = "none";
+		chem.style.display = "none";
+		rwd.style.display = "none";
+		docs.style.display = "none";
+		phys.style.display = "none";
+	}
+}
 
 
 

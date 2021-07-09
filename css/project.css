@@ -111,27 +111,53 @@ ul {
 	line-height: 1.5;
 	font-size: 20px;
 }
-/* NAV */
 
-.homeDIV nav {
-	margin-top: 1rem;
+/* NAVIGATION BAR */
+
+nav {
 	color: white;
 	font-family: playfairItalic;
+	padding-top: 1rem;
+	text-align: center;
+	animation-name: fadeInTop;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	text-align: center;
+	color: white;
+	z-index: 1;
 }
 
-.homeDIV nav a {
+nav a {
 	padding: 3.5rem;
 	font-size: 30px;
 	color: white;
 	transition: 1s;
 }
 
-.homeDIV nav a:hover {
+nav a:hover {
 	font-style: italic;
 	text-decoration-line: overline;
 }
 
-/* MAIN */
+.active {
+	text-decoration-line: overline;
+}
+
+@keyframes fadeInTop {
+	0% {
+		transform: translateY(-60px);
+	}
+
+	30% {
+		transform: translateY(-60px);
+	}
+
+	100% {
+		transform: translateY(0px);
+	}
+}
+
+/* MAIN DIV */
 
 .containerDIV {
 	display: flex;
@@ -140,21 +166,21 @@ ul {
 	height: 100%;
 }
 
-.homeDIV {
+.mainDIV {
 	background: linear-gradient(#CFB4A1, #825D4B);
 	color: #E3E3E3;
 	width: 75%;
 	padding-left: 5rem;
 }
 
-.homeDIV h1 {
+.mainDIV h1 {
 	font-family: bebas;
 	font-size: 200px;
 	line-height: 0.8;
 	margin-top: 20%;
 }
 
-.homeDIV h2 {
+.mainDIV h2 {
 	font-family: playfairItalic;
 	font-size: 65px;
 	line-height: 0.8;
@@ -168,12 +194,108 @@ ul {
 	width: 550px;
 }
 
-/* QUOTE */
+/* PROJECT INFO DIV */
+
+.infoContainer {
+	padding-bottom: 3rem ;
+	text-align: center;
+	margin: -5rem 0 0 -5rem;
+	color: white;
+	height: 47rem;
+}
+
+#select {
+	text-align: center;
+}
+#select h2 {
+	color: #E3E3E3;
+	padding: 1rem;
+}
+
+#select h3 {
+	color: white;
+	font-family: montserratReg;
+	line-height: 2;
+	text-align: justify;
+	margin: 0 5rem 0 5rem;
+	text-indent: 1in;
+	font-size: 25px;
+}
+
+#select h3 a {
+	color: white;
+}
+
+.projectTitleWIP {
+	color: white;
+	padding: 1rem;
+	font-family: playfairBoldItalic;
+	font-size: 30px;
+	display: inline;
+}
+
+.projectWIP {
+	color: #E3E3E3;
+	padding: 1rem;
+	font-family: playfairItalic;
+	font-size: 30px;
+	display: inline;
+}
+
+.infoDIV {
+	display: none;
+	margin: 3rem;
+}
+
+.infoDIV h2 a{
+	color: #2F2520;
+	transition: 0.5s;
+}
+
+.infoDIV h2 a:hover {
+	color: #e3e3e3;
+}
+
+
+.infoDIV h1 {
+	color: white;
+}
+
+.infoDIV h3 {
+	color: white;
+	font-family: montserratReg;
+	text-indent: 1in;
+	text-align: justify;
+	margin:  2rem 5rem -5rem 0;
+	line-height: 2;
+	overflow: hidden;
+}
+
+/* PROJECTS SIDE DIV */
+
+.projectsDIV {
+	text-align: center;
+	background-color: black;
+}
+
+.projectsDIV img {
+	width: 100%;
+	transition: 0.5s;
+	opacity: 0.5;
+	margin-bottom: -4px;
+}
+
+.projectsDIV img:hover{
+	opacity: 1;
+}
+
+/* QUOTE DIV */
 
 .quoteDIV {
 	background-color: #CFB4A1;
 	text-align: center;
 	padding: 3.3rem;
+	margin-bottom: -1rem;
 }
 
 .quoteDIV h1 {
@@ -204,112 +326,6 @@ ul {
 
 .quoteDIV h3 a:hover {
 	color: #89644D;
-}
-
-/* ABOUT */
-
-.infoDIV {
-	display: none;
-	margin: 3rem;
-}
-
-.infoDIV h2 a{
-	color: #2F2520;
-	transition: 0.5s;
-}
-
-.infoDIV h2 a:hover {
-	color: #e3e3e3;
-}
-
-#select {
-	text-align: center;
-}
-#select h2 {
-	color: #E3E3E3;
-	padding: 1rem;
-}
-
-#select h3 {
-	color: white;
-	font-family: montserratReg;
-	line-height: 2;
-	text-align: justify;
-	margin: 0 5rem 0 5rem;
-	text-indent: 1in;
-	font-size: 25px;
-}
-
-#select h3 a {
-	color: white;
-}
-.infoContainer {
-	padding-bottom: 3rem ;
-	text-align: center;
-	margin: -5rem 0 0 -5rem;
-	color: white;
-	height: 47rem;
-}
-
-.infoDIV h1 {
-	color: white;
-}
-
-.infoDIV h3 {
-	color: white;
-	font-family: montserratReg;
-	text-indent: 1in;
-	text-align: justify;
-	margin:  2rem 5rem -5rem 0;
-	line-height: 2;
-	overflow: hidden;
-}
-
-
-.projectTitleWIP {
-	color: white;
-	padding: 1rem;
-	font-family: playfairBoldItalic;
-	font-size: 30px;
-	display: inline;
-}
-
-.projectWIP {
-	color: #E3E3E3;
-	padding: 1rem;
-	font-family: playfairItalic;
-	font-size: 30px;
-	display: inline;
-}
-
-/*
-.infoContainer h5 {
-	color: white;
-	font-family: montserratBold;
-	text-align: justify;
-	margin:  2rem 5rem 0 10rem;
-	line-height: 1;
-	font-size: 30px;
-}
-
-/* skills */
-
-
-.projectsDIV {
-	text-align: center;
-	background-color: black;
-	height: 61rem;
-}
-
-.projectsDIV img {
-	width: 100%;
-	transition: 0.5s;
-	opacity: 0.5;
-	margin-top: -4px;
-}
-
-.projectsDIV img:hover{
-	opacity: 1;
 }
 
 /* PRE-LOADER */
