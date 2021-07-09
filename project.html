@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Projects &middot; Gianna's Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="css/project.css">
+</head>
+<body>
+	<div class="containerDIV">
+		<div class="homeDIV">
+			<nav>
+				<a href="index.html">Home</a>
+				<a href="about.html">About</a>
+				<a class="active" href="#">Projects</a>
+				<a href="contact.html">Contact</a>
+			</nav>
+				
+			<div class="infoContainer">
+					<h1>PROJECTS</h1>
+					<h2 id="select">Select a project</h2>
+					<div class="infoDIV" id="chemDIV">
+						<h2><a href="giannacrisha.github.io/chemistry">Chemistry Website</a></h2>
+						<h3>This website contains an interactive periodic table of elements and more features to come. It compiles all the chemistry lessons in one website. Lessons from General Chemistry, Organic Chemistry, Inorganic Chemistry, Analytical Chemistry, and Biochemistry can be found here. (Work-in-progress)</h3>
+					</div>
+					<div class="infoDIV" id="physDIV">
+						<h2><a href="giannacrisha.github.io/physics">Physics Website</h2>
+					</div>
+					<div class="infoDIV" id="rwdDIV">
+						<h2><a href="giannacrisha.github.io/rwd">Responsive Web Design</a></h2>
+					</div>
+					<div class="infoDIV" id="docsDIV">
+						<h2><a href="giannacrisha.github.io/docs">Documentation</a></h2>
+					</div>
+			</div>
+
+		</div>
+		<div class="sideDIV">
+			<div class="projectsDIV">
+				<div onclick="hideChem()"><img src="pics/chem.png"></div>
+				<div onclick="hidePhys()"><img src="pics/phys.png"></div>
+				<div onclick="hideRWD()"><img src="pics/rwd.png"></div>
+				<div onclick="hideDocs()"><img src="pics/docs.png"></div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="script.js"></script>
+
+	</div>
+
+	<div class="quoteDIV">
+		<h1>“Only those who will risk going too far can possibly know how far can one go.”</h1>
+		<h2>Thomas Stearns Eliot</h2><br>
+
+		<h3>Copyright &copy; 2021 by 
+		<a href="https://github.com/giannacrisha" id="gitlink">Gianna Saludo</a></h3>
+	</div>
+
+	<div class="loaderDIV">
+		<div class="book">
+			<span class="page turn"></span>
+			<span class="page turn"></span>
+		    <span class="page turn"></span>
+		    <span class="page turn"></span>
+		    <span class="page turn"></span>
+		    <span class="page turn"></span>
+		    <span class="cover"></span>
+		    <span class="page"></span>
+		    <span class="cover turn"></span>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		let loaderDIV = document.querySelector(".loaderDIV");
+		window.addEventListener('load', function(){
+			loaderDIV.style.display = 'none';
+		});
+	</script>
+</body>s
+</html>
