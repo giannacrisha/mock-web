@@ -161,18 +161,11 @@ ul {
 	color: white;
 }
 
-.picDIV {
+.sideDIV {
 	float: right;
 	background-color: #E3E3E3;
 	height: 100%;
 	width: 550px;
-}
-
-.picDIV img {
-	height: 50rem;
-	text-align: center;
-	padding-left: 0.5rem;
-	margin-bottom: -5rem;
 }
 
 /* QUOTE */
@@ -215,18 +208,66 @@ ul {
 
 /* ABOUT */
 
-.aboutDIV {
+.contactDIV {
 	padding-bottom: 3rem ;
+	text-align: center;
+	margin: -5rem 0 0 -5rem;
 }
 
-.aboutDIV h1 {
+.contactDIV h1 {
 	color: white;
 }
 
-.aboutDIV h2 {
+.contactDIV h2 {
 	color: #E3E3E3;
+	margin-bottom: 2rem;
 }
-.aboutDIV h3 {
+
+.contactDIV form {
+	margin-bottom: 5rem;
+}
+
+.contactDIV input {
+	border-radius: 50px;
+	border: none;
+	padding: 2rem;
+	font-size: 2rem;
+	margin: 0.5rem;
+	width: 50%;
+	font-family: montserratBold;
+	color: #2F2520;
+}
+
+.contactDIV textarea {
+	border-radius: 50px;
+	padding: 2rem;
+	font-size: 1.5rem;
+	margin: 0.5rem;
+	border: none;
+	width: 50%;
+	height: 10rem;
+	font-family: playfairItalic;
+	color: #2F2520;
+}
+
+.contactDIV button {
+	border-radius: 50px;
+	font-size: 1.5rem;
+	margin: 0.5rem;
+	border: none;
+	width: 5rem;
+	height: 5rem;
+	font-family: playfairItalic;
+	color: #2F2520;
+	transition: 0.5s;
+}
+
+.contactDIV button:hover {
+	background-color: #2F2520;
+	color: #CFB4A1;
+}
+/*
+.contactDIV h3 {
 	color: white;
 	font-family: montserratReg;
 	text-indent: 1in;
@@ -235,7 +276,7 @@ ul {
 	line-height: 2;
 }
 
-.aboutDIV h4 {
+.contactDIV h4 {
 	color: #CFB4A1;
 	font-family: playfairBoldItalic;
 	text-indent: 1in;
@@ -245,75 +286,71 @@ ul {
 	font-size: 50px;
 }
 
-.aboutDIV h5 {
+.contactDIV h5 {
 	color: white;
 	font-family: montserratBold;
 	text-align: justify;
 	margin:  2rem 5rem 0 10rem;
 	line-height: 1;
 	font-size: 30px;
-}
+}*/
 
 /* skills */
 
-.skillsDIV h1 {
-	text-align: right;
+
+.socialsDIV {
+	height: 61rem;
+	text-align: center;
+}
+.socialsDIV h1 {
 	font-family: bebas;
 	color: #89644D;
 	font-size: 150px;
-	margin: 5rem 2.5rem -5rem 0;
+	margin: 10rem 0 -1rem 0 ;
 }
 
-.skillsDIV h2 {
-	text-align: right;
+/*
+.socialsDIV h2 {
 	font-family: playfairItalic;
 	color: #2F2520;
 	font-size: 30px;
-	margin: 5rem 2.5rem 0 0;
-}
-
-.skillsDIV h3 {
-	text-align: justify;
-	font-family: montserratReg;
-	color: #89644D;
-	font-size: 20px;
-	margin: 5rem 2.5rem 0 2.5rem;
-	padding: 1rem 1rem 15rem 1rem;
-}
-
-.skillsDIV h3 a {
-	color: #89644D;
+	margin: 1rem 2.5rem 0 0;
+	padding: 0.5rem;
 	transition: 0.5s;
 }
 
-.skillsDIV h3 a:hover {
+.socialsDIV h2 a {
+	background-color: white;
+	border-radius: 50px;
+	padding: 0.5rem 1rem 0.5rem 1rem;
+	transition: 0.3s;
 	color: #2F2520;
 }
 
-/* SHAPE */
+.socialsDIV h2:hover {
+	margin-right: 5rem;
+}
+*/
 
-.circleUnfilled {
-	border-radius: 100%;
+.socialsDIV img {
+	width: 150px;
+	height: 150px;
+	margin: 2rem 0 0 0 ;
 	padding: 1rem;
-	color: white;
-	background-color: white;
-	width: 5px;
-	height: 5px;
-	float: right;
-	margin-right: 2.5rem;
-	margin-top: 0.5rem;
+	background:radial-gradient(white, #CFB4A1, #89644D, black);
+	border-radius: 100%;
+	transition: 0.5s;
 }
 
-.circleFilled {
-	border-radius: 100%;
-	padding: 1rem;
-	color: #89644D;;
-	background-color: #89644D;
-	width: 5px;
-	height: 5px;
-	float: right;
-	margin-right: 2.5rem;
-	margin-top: 0.5rem;
+.socialsDIV img:hover{
+	animation-name: moveIMG;
+	animation-duration: 3s;
+}
+
+@keyframes moveIMG {
+	100% {
+		transform: rotateZ(360deg);
+	}
 }
 
 /* PRE-LOADER */
