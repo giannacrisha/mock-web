@@ -108,6 +108,7 @@ nav {
 	animation-name: fadeInTop;
 	animation-duration: 2s;
 	animation-iteration-count: 1;
+	overflow: hidden;
 }
 
 nav a {
@@ -115,6 +116,7 @@ nav a {
 	font-size: 30px;
 	color: white;
 	transition: 1s;
+	overflow: hidden;
 }
 
 nav a:hover {
@@ -424,6 +426,53 @@ nav a:hover {
   	transform: rotateY(30deg);
     z-index: 999;
   }
+}
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 600px) {
+
+nav a {
+	padding: 1rem;
+	font-size: 25px;
+	color: white;
+	transition: 1s;
+}
+
+.homeDIV {
+	padding: 1rem 0 7rem 0;
+}
+
+.homeDIV h1 {
+	font-size: 150px;
+}
+
+.homeDIV h2 {
+	font-size: 50px;
+}
+
+.quoteDIV h1 {
+	font-family: playfairItalic;
+	color: #2F2520;
+	font-size: 20px;
+	animation-name: fade;
+	animation-duration: 5s;
+	animation-iteration-count: 1;
+}
+
+.quoteDIV h3 {
+	font-size: 15px;
+}
+
+}
+
+@media only screen and (min-width: 600px) {
+	nav a {
+	padding: 2rem;
+	font-size: 30px;
+	color: white;
+	transition: 1s;
+}
 }
 
 
