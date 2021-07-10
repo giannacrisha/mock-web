@@ -255,6 +255,12 @@ nav a:hover {
 	font-size: 25px;
 }
 
+.infoDIV img {
+	height: 300px;
+	border-radius: 50px;
+	margin-top: 3em;
+}
+
 /* PROJECTS SIDE DIV */
 
 .projectsDIV {
