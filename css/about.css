@@ -287,9 +287,9 @@ nav a {
 }
 
 .sideDIV img {
-	height: 50rem;
+	width: 400px;
 	text-align: center;
-	padding-left: 0.5rem;
+	padding:1rem 2rem 1rem 2.5rem;
 	margin-bottom: -5rem;
 }
 
@@ -314,8 +314,8 @@ nav a {
 	font-family: montserratReg;
 	color: #89644D;
 	font-size: 20px;
-	margin: 8rem 2.5rem 0 2.5rem;
-	padding: 1rem 1rem 10rem 1rem;
+	margin: 10rem 2.5rem 0 2.5rem;
+	padding: 1rem 1rem 8rem 1rem;
 }
 
 .sideDIVs h3 a {
@@ -325,6 +325,28 @@ nav a {
 
 .sideDIVs h3 a:hover {
 	color: #2F2520;
+}
+
+.resumecv {
+	text-align: center;
+	margin: 5rem 0 2.5rem 0;
+}
+
+.resumecv a {	
+	border-radius: 50px;
+	border: 2px solid #CFB4A1;
+	padding: 1rem;
+	background-color: white;
+	font-family: playfairBoldItalic;
+	color: #CFB4A1;
+	font-size: 20px;
+	transition: 0.5s;
+}
+
+.resumecv a:hover {
+	background-color: #89644D;
+	border: 2px solid #89644D;
+	color: white;
 }
 
 @media only screen and (max-width: 600px) {
@@ -374,7 +396,7 @@ nav a {
 
 .rating {
 	display: flex;
-	flex-direction: row;
+	flex-direction: row-reverse;
 	float: right;
 }
 .circleUnfilled {
@@ -402,8 +424,10 @@ nav a {
 @media only screen and (max-width: 600px) {
 
 	.rating {
+		display: block;
 		margin-left: 10rem;
 		margin-top: 0.8rem;
+		float: none;
 	}
 	.circleUnfilled {
 	border-radius: 100%;
