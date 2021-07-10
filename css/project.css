@@ -193,16 +193,7 @@ nav a:hover {
 	height: 100%;
 	width: 550px;
 }
-
-/* PROJECT INFO DIV */
-
-.infoContainer {
-	padding-bottom: 3rem ;
-	text-align: center;
-	margin: -5rem 0 0 -5rem;
-	color: white;
-	height: 47rem;
-}
+/* SELECT DIV */
 
 #select {
 	text-align: center;
@@ -226,25 +217,23 @@ nav a:hover {
 	color: white;
 }
 
-.projectTitleWIP {
-	color: white;
-	padding: 1rem;
-	font-family: playfairBoldItalic;
-	font-size: 30px;
-	display: inline;
-}
+/* PROJECT INFO DIV */
 
-.projectWIP {
-	color: #E3E3E3;
-	padding: 1rem;
-	font-family: playfairItalic;
-	font-size: 30px;
-	display: inline;
+.infoContainer {
+	padding-bottom: 3rem ;
+	text-align: center;
+	margin: -5rem 0 0 -5rem;
+	color: white;
+	height: 47rem;
 }
 
 .infoDIV {
 	display: none;
-	margin-top: 3rem;
+	padding: 1rem;
+}
+
+.infoDIV h1 {
+	color: white;
 }
 
 .infoDIV h2 a{
@@ -256,16 +245,12 @@ nav a:hover {
 	color: #e3e3e3;
 }
 
-.infoDIV h1 {
-	color: white;
-}
-
 .infoDIV h3 {
 	color: white;
 	font-family: montserratReg;
 	line-height: 2;
 	text-align: justify;
-	margin: 3rem 5rem 0 5rem;
+	margin: 2rem 5rem 0 5rem;
 	text-indent: 1in;
 	font-size: 25px;
 }

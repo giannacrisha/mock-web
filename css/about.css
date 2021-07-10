@@ -164,61 +164,7 @@ nav a:hover {
 
 .mainDIV {
 	background: linear-gradient(#CFB4A1, #825D4B);
-	color: #E3E3E3;
-	width: 75%;
 	padding-left: 5rem;
-}
-
-.mainDIV h1 {
-	font-family: bebas;
-	font-size: 200px;
-	line-height: 0.8;
-	margin-top: 20%;
-}
-
-.mainDIV h2 {
-	font-family: playfairItalic;
-	font-size: 65px;
-	line-height: 0.8;
-	color: white;
-}
-
-/* QUOTE DIV */
-
-.quoteDIV {
-	background-color: #CFB4A1;
-	text-align: center;
-	padding: 3.3rem;
-}
-
-.quoteDIV h1 {
-	font-family: playfairItalic;
-	color: #2F2520;
-	font-size: 30px;
-}
-
-.quoteDIV h2 {
-	font-family: bebas;
-	color: #89644D;
-	font-size: 40px;
-	line-height: 2;
-}
-
-.quoteDIV h3 {
-	font-family: playfairReg;
-	color: white;
-	font-size: 20px;
-	line-height: 1;
-}
-
-.quoteDIV h3 a {
-	font-family: playfairItalic;
-	color: white;
-	transition: 0.5s;
-}
-
-.quoteDIV h3 a:hover {
-	color: #89644D;
 }
 
 /* ABOUT DIV */
@@ -228,15 +174,22 @@ nav a:hover {
 }
 
 .aboutDIV h1 {
+	font-family: bebas;
+	font-size: 200px;
 	color: white;
+	line-height: 0.8;
+	margin-top: 20%;
 }
 
 .aboutDIV h2 {
+	font-family: playfairItalic;
+	font-size: 65px;
 	color: #E3E3E3;
+	line-height: 0.8;
 }
 .aboutDIV h3 {
-	color: white;
 	font-family: montserratReg;
+	color: white;
 	text-indent: 1in;
 	text-align: justify;
 	margin:  2rem 5rem -5rem 0;
@@ -267,7 +220,6 @@ nav a:hover {
 .sideDIV {
 	float: right;
 	background-color: #E3E3E3;
-	height: 100%;
 	width: 550px;
 }
 
@@ -336,6 +288,44 @@ nav a:hover {
 	float: right;
 	margin-right: 2.5rem;
 	margin-top: 0.5rem;
+}
+
+/* QUOTE DIV */
+
+.quoteDIV {
+	background-color: #CFB4A1;
+	text-align: center;
+	padding: 3.3rem;
+}
+
+.quoteDIV h1 {
+	font-family: playfairItalic;
+	color: #2F2520;
+	font-size: 30px;
+}
+
+.quoteDIV h2 {
+	font-family: bebas;
+	color: #89644D;
+	font-size: 40px;
+	line-height: 2;
+}
+
+.quoteDIV h3 {
+	font-family: playfairReg;
+	color: white;
+	font-size: 20px;
+	line-height: 1;
+}
+
+.quoteDIV h3 a {
+	font-family: playfairItalic;
+	color: white;
+	transition: 0.5s;
+}
+
+.quoteDIV h3 a:hover {
+	color: #89644D;
 }
 
 /* LOADER DIV */
