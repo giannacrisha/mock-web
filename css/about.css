@@ -314,8 +314,8 @@ nav a {
 	font-family: montserratReg;
 	color: #89644D;
 	font-size: 20px;
-	margin: 5rem 2.5rem 0 2.5rem;
-	padding: 1rem 1rem 15rem 1rem;
+	margin: 8rem 2.5rem 0 2.5rem;
+	padding: 1rem 1rem 10rem 1rem;
 }
 
 .sideDIVs h3 a {
@@ -372,6 +372,11 @@ nav a {
 
 /* SHAPES */
 
+.rating {
+	display: flex;
+	flex-direction: row;
+	float: right;
+}
 .circleUnfilled {
 	border-radius: 100%;
 	padding: 1rem;
@@ -379,7 +384,7 @@ nav a {
 	background-color: white;
 	width: 5px;
 	height: 5px;
-	margin-right: 2.5rem;
+	margin-right: 2rem;
 	margin-top: 0.5rem;
 }
 
@@ -390,7 +395,7 @@ nav a {
 	background-color: #89644D;
 	width: 5px;
 	height: 5px;
-	margin-right: 2.5rem;
+	margin-right: 2rem;
 	margin-top: 0.5rem;
 }
 
