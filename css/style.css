@@ -220,7 +220,7 @@ nav a:hover {
 .quoteDIV {
 	background-color: #E3E3E3;
 	text-align: center;
-	padding: 2rem;
+	padding: 5rem;
 
 }
 
@@ -465,16 +465,6 @@ nav a {
 }
 
 }
-
-@media only screen and (min-width: 600px) {
-	nav a {
-	padding: 2rem;
-	font-size: 30px;
-	color: white;
-	transition: 1s;
-}
-}
-
 
 
 
