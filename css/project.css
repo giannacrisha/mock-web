@@ -177,7 +177,7 @@ nav a:hover {
 	font-family: bebas;
 	font-size: 200px;
 	line-height: 0.8;
-	margin-top: 20%;
+	margin-top: 15%;
 }
 
 .mainDIV h2 {
@@ -253,6 +253,15 @@ nav a:hover {
 	margin: 2rem 5rem 0 5rem;
 	text-indent: 1in;
 	font-size: 25px;
+}
+
+.infoDIV h3 a {
+	color: #E3E3E3;
+	transition: 0.5;
+}
+
+.infoDIV h3 a:hover {
+	color: white;
 }
 
 .infoDIV img {
