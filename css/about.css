@@ -112,6 +112,15 @@ ul {
 	font-size: 20px;
 }
 
+@media only screen and (max-width: 600px) {
+
+ul {
+	margin-left: 1rem;
+	font-size: 15px;
+}
+
+}
+
 /* NAVIGATION BAR */
 
 nav {
@@ -124,7 +133,6 @@ nav {
 	animation-iteration-count: 1;
 	text-align: center;
 	color: white;
-	z-index: 1;
 }
 
 nav a {
@@ -153,6 +161,15 @@ nav a:hover {
 	}
 }
 
+@media only screen and (max-width: 600px) {
+
+nav a {
+	padding: 1rem;
+	font-size: 25px;
+}
+
+}
+
 /* MAIN DIV */
 
 .containerDIV {
@@ -165,6 +182,18 @@ nav a:hover {
 .mainDIV {
 	background: linear-gradient(#CFB4A1, #825D4B);
 	padding-left: 5rem;
+}
+
+@media only screen and (max-width: 600px) {
+
+.containerDIV {
+	flex-direction: column;
+}
+
+.mainDIV {
+	padding-left: 0;
+}
+
 }
 
 /* ABOUT DIV */
@@ -213,6 +242,40 @@ nav a:hover {
 	margin:  2rem 5rem 0 10rem;
 	line-height: 1;
 	font-size: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+
+.aboutDIV {
+	padding-bottom: 3rem;
+	padding-left: 2rem;
+}
+
+.aboutDIV h1 {
+	font-size: 100px;
+}
+
+.aboutDIV h2 {
+	font-size: 40px;
+}
+.aboutDIV h3 {
+	font-size: 15px;
+	line-height: 1.5;
+	margin:  2rem 2rem -5rem 0;
+}
+
+.aboutDIV h4 {
+	text-indent: 0;
+	margin:  1.3rem 5rem 0 0;
+	font-size: 50px;
+}
+
+.aboutDIV h5 {
+	text-align: left;
+	margin:  0.5rem 0 0 0;
+	font-size: 23px;
+}
+
 }
 
 /* SIDE DIV */
@@ -264,6 +327,49 @@ nav a:hover {
 	color: #2F2520;
 }
 
+@media only screen and (max-width: 600px) {
+
+.sideDIV {
+	width: 100%;
+	text-align: center;
+}
+
+.sideDIV img {
+	height: 50rem;
+	padding-left: 0.5rem;
+	ma
+}
+
+.sideDIVs h1 {
+	font-size: 100px;
+	margin: 2rem 2.5rem -5rem 5rem;
+	text-align: left;
+}
+
+.sideDIVs h2 {
+	text-align: left;
+	color: #2F2520;
+	font-size: 30px;
+	margin: 5rem 2.5rem 0 8rem;
+}
+
+.sideDIVs h3 {
+	font-size: 20px;
+	margin: 8rem 2.5rem 0 2.5rem;
+	padding: 1rem 1rem 6rem 1rem;
+}
+
+.sideDIVs h3 a {
+	color: #89644D;
+	transition: 0.5s;
+}
+
+.sideDIVs h3 a:hover {
+	color: #2F2520;
+}
+
+}
+
 /* SHAPES */
 
 .circleUnfilled {
@@ -273,7 +379,6 @@ nav a:hover {
 	background-color: white;
 	width: 5px;
 	height: 5px;
-	float: right;
 	margin-right: 2.5rem;
 	margin-top: 0.5rem;
 }
@@ -285,9 +390,37 @@ nav a:hover {
 	background-color: #89644D;
 	width: 5px;
 	height: 5px;
-	float: right;
 	margin-right: 2.5rem;
 	margin-top: 0.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+
+	.rating {
+		margin-left: 10rem;
+		margin-top: 0.8rem;
+	}
+	.circleUnfilled {
+	border-radius: 100%;
+	padding: 1rem;
+	color: white;
+	background-color: white;
+	width: 5px;
+	height: 5px;
+	float: left;
+	margin-right: 1rem;
+}
+
+.circleFilled {
+	border-radius: 100%;
+	padding: 1rem;
+	color: #89644D;;
+	background-color: #89644D;
+	width: 5px;
+	height: 5px;
+	float: left;
+	margin-right: 1rem;
+}
 }
 
 /* QUOTE DIV */
@@ -326,6 +459,23 @@ nav a:hover {
 
 .quoteDIV h3 a:hover {
 	color: #89644D;
+}
+
+@media only screen and (max-width: 600px) {
+
+.quoteDIV h1 {
+	font-family: playfairItalic;
+	color: #2F2520;
+	font-size: 20px;
+	animation-name: fade;
+	animation-duration: 5s;
+	animation-iteration-count: 1;
+}
+
+.quoteDIV h3 {
+	font-size: 15px;
+}
+
 }
 
 /* LOADER DIV */
@@ -477,8 +627,6 @@ nav a:hover {
     z-index: 999;
   }
 }
-
-
 
 
 
