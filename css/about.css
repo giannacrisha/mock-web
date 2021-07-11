@@ -104,7 +104,7 @@ a {
 
 ul {
 	list-style-type: none;
-	margin-left: 15rem;
+	margin-left: 7rem;
 	margin-top: 1rem;
 	color: white;
 	font-family: montserratReg;
@@ -229,7 +229,7 @@ nav a {
 .aboutDIV h4 {
 	color: #CFB4A1;
 	font-family: playfairBoldItalic;
-	text-indent: 1in;
+	text-indent: 0.5in;
 	text-align: justify;
 	margin:  2rem 5rem 0 0;
 	line-height: 1;
@@ -240,7 +240,7 @@ nav a {
 	color: white;
 	font-family: montserratBold;
 	text-align: justify;
-	margin:  2rem 5rem 0 10rem;
+	margin:  2rem 5rem 0 5rem;
 	line-height: 1;
 	font-size: 30px;
 }
