@@ -130,11 +130,11 @@ nav a:hover {
 
 @keyframes fadeInTop {
 	0% {
-		transform: translateY(-65px);
+		transform: translateY(-60px);
 	}
 
 	30% {
-		transform: translateY(-65px);
+		transform: translateY(-60px);
 	}
 
 	100% {
@@ -154,29 +154,9 @@ nav a {
 }
 
 @media only screen and (min-height: 1080px) {
-nav {
-	animation-name: fadeInTop2;
-	animation-duration: 2s;
-	animation-iteration-count: 1;
-}
-
 nav a {
 	padding: 3rem;
-	font-size: 35px;
-}
-
-@keyframes fadeInTop2 {
-	0% {
-		transform: translateY(-100px);
-	}
-
-	30% {
-		transform: translateY(-100px);
-	}
-
-	100% {
-		transform: translateY(0px);
-	}
+	font-size: 40px;
 }
 }
 
@@ -306,13 +286,13 @@ nav a {
 @media only screen and (min-height: 1080px) {
 
 .homeDIV h1 {
-	font-size: 250px;
-	padding-top: 17rem;
+	font-size: 400px;
+	padding-top: 12rem;
 }
 
 .homeDIV {
 	width: 100%;
-	padding: 0 0 15rem 0;
+	padding: 0 0 12rem 0;
 }
 }
 
