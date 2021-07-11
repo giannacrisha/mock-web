@@ -154,9 +154,29 @@ nav a {
 }
 
 @media only screen and (min-height: 1080px) {
+nav {
+	animation-name: fadeInTop2;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+}
+
 nav a {
 	padding: 3rem;
 	font-size: 35px;
+}
+
+@keyframes fadeInTop2 {
+	0% {
+		transform: translateY(-100px);
+	}
+
+	30% {
+		transform: translateY(-100px);
+	}
+
+	100% {
+		transform: translateY(0px);
+	}
 }
 }
 
