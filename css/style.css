@@ -130,11 +130,11 @@ nav a:hover {
 
 @keyframes fadeInTop {
 	0% {
-		transform: translateY(-60px);
+		transform: translateY(-65px);
 	}
 
 	30% {
-		transform: translateY(-60px);
+		transform: translateY(-65px);
 	}
 
 	100% {
