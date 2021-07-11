@@ -283,7 +283,7 @@ nav a {
 
 }
 
-@media only screen and (min-height: 1080px) {
+@media only screen and (min-width: 1680px) {
 
 .homeDIV h1 {
 	font-size: 300px;
