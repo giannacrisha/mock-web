@@ -143,15 +143,16 @@ nav a:hover {
 }
 
 @media only screen and (max-width: 600px) {
-
+nav {
+	width: 100%;
+	padding-bottom: 1rem;
+}
 nav a {
-	padding: 1rem;
+	padding: 3rem;
 	font-size: 25px;
-	color: white;
-	transition: 1s;
+}
 }
 
-}
 
 
 /* HOME DIV */
@@ -227,7 +228,7 @@ nav a {
 	}
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
 
 nav a {
 	padding: 1rem;
@@ -339,7 +340,7 @@ nav a {
 	}
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
 
 .quoteDIV h1 {
 	font-family: playfairItalic;
