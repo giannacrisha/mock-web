@@ -112,7 +112,7 @@ ul {
 	font-size: 20px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1366px) {
 
 ul {
 	margin-left: 1rem;
@@ -161,7 +161,7 @@ nav a:hover {
 	}
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1366px) {
 
 nav a {
 	padding: 1rem;
@@ -184,7 +184,7 @@ nav a {
 	padding-left: 5rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1366px) {
 
 .containerDIV {
 	flex-direction: column;
@@ -244,7 +244,7 @@ nav a {
 	font-size: 30px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1366px) {
 
 .aboutDIV {
 	padding-bottom: 3rem;
@@ -349,7 +349,7 @@ nav a {
 	color: white;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1366px) {
 
 .sideDIV {
 	width: 100%;
@@ -419,7 +419,7 @@ nav a {
 	margin-top: 0.5rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1366px) {
 
 	.rating {
 		display: block;
@@ -488,7 +488,7 @@ nav a {
 	color: #89644D;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1366px) {
 
 .quoteDIV h1 {
 	font-family: playfairItalic;
