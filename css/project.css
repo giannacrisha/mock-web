@@ -124,6 +124,7 @@ nav {
 	animation-iteration-count: 1;
 	text-align: center;
 	color: white;
+	overflow: hidden;
 }
 
 nav a {
@@ -131,6 +132,7 @@ nav a {
 	font-size: 30px;
 	color: white;
 	transition: 1s;
+	overflow: hidden;
 }
 
 nav a:hover {
@@ -156,7 +158,13 @@ nav a:hover {
 	}
 }
 
+@media only screen and (min-width: 950px) and (max-width: 1090px) {
+	nav a {
+		padding: 2.5rem;
+		font-size: 25px;
+	}
 
+}
 @media only screen and (max-width: 950px) {
 nav {
 	position: absolute;
@@ -225,7 +233,7 @@ nav a {
 	float: right;
 	background-color: black;
 	height: 100%;
-	width: auto;
+	width: 80rem;
 	height: auto;
 }
 
@@ -260,6 +268,10 @@ nav a {
 
 .mainDIV h3 {
 	padding-left: 5rem;
+}
+
+.sideDIV {
+	width: 100%;
 }
 
 }
@@ -409,8 +421,6 @@ nav a {
 
 .projectsDIV img {
 	width: 100%;
-	max-width: 100%;
-	height: auto;
 	transition: 0.5s;
 	opacity: 0.3;
 	margin-bottom: -4px;
@@ -424,7 +434,6 @@ nav a {
 	.projectsDIV {
 	text-align: center;
 	background-color: black;
-	margin: 0 -1.5rem 0 0;
 }
 }
 
