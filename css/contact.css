@@ -118,7 +118,7 @@ nav {
 }
 
 nav a {
-	padding: 3.5rem;
+	padding: 3rem;
 	font-size: 30px;
 	color: white;
 	transition: 1s;
@@ -143,7 +143,29 @@ nav a:hover {
 	}
 }
 
+@media only screen and (min-width: 800px) and (max-width: 1350px) {
+nav a {
+	padding: 2rem;
+	font-size: 25px;
+}
+}
+
+@media only screen and (max-width: 1000px) {
+nav {
+	width: 100%;
+	padding-bottom: 1rem;
+}
+nav a {
+	padding: 2rem;
+	font-size: 20px;
+}
+}
 /* MAIN DIV */
+
+.parentDIV {
+	display: flex;
+	flex-direction: column;
+}
 
 .containerDIV {
 	display: flex;
@@ -174,10 +196,40 @@ nav a:hover {
 }
 
 .sideDIV {
+	display: flex;
+	flex-direction: column;
 	float: right;
-	background-color: #E3E3E3;
 	height: 100%;
 	width: 550px;
+}
+
+@media only screen and (max-width: 1000px) {
+.containerDIV {
+	display: block;
+	flex-direction: column;
+}
+
+.mainDIV {
+	background: linear-gradient(#CFB4A1, #825D4B);
+	color: #E3E3E3;
+	width: 100%;
+	padding-left: 0;
+}
+
+.mainDIV h1 {
+	margin-left: 3rem;
+	font-size: 150px;
+}
+
+.mainDIV h2 {
+	margin-left: 3rem;
+	font-size: 50px;
+}
+
+.sideDIV {
+	width: auto;
+	height: auto;
+}
 }
 
 /* CONTACT DIV */
@@ -244,18 +296,25 @@ nav a:hover {
 /* SOCIALS DIV */
 
 .socialsDIV {
-	height: 61rem;
+	background-color: #E3E3E3;
+	height: 50rem;
 	text-align: center;
-	margin: 5rem 0 5rem 0;
+	padding-top: 2rem;
+}
+
+.socialsDIV2 {
+	background-color: #2F2520;
+	text-align: center;
+	color: white;
+	padding: 4rem 2rem 4rem 2rem;
 }
 
 .socialsDIV h1 {
 	font-family: playfairItalic;
-	color: black;
+	color: #2F2520;
 	font-size: 150px;
 	line-height: 1;
 	display: inline;
-
 }
 
 .socialsDIV h2 {
@@ -268,10 +327,10 @@ nav a:hover {
 }
 
 .socialsDIV img {
-	width: 150px;
-	height: 150px;
+	width: 50px;
+	height: 50px;
 	margin: 2rem 0 0 0 ;
-	padding: 1rem;
+	padding: 0.3rem;
 	background:radial-gradient(white, #CFB4A1, #89644D, black);
 	border-radius: 100%;
 	transition: 0.5s;
@@ -282,10 +341,44 @@ nav a:hover {
 	animation-duration: 3s;
 }
 
+.indivSocials {
+	text-align: center;
+	margin: 3rem 0 0 0;
+}
+
+.indivSocials a {
+	text-align: center;
+	
+	font-size: 50px;
+	font-family: playfairBoldItalic;
+	background-color: white;
+	color: #2F2520;
+	border-radius: 50px;
+	padding: 1rem 3rem 1rem 3rem;
+	transition: 0.3s;
+}
+
+.indivSocials a:hover {
+	background-color: #2F2520;
+	color: white;
+}
+
 @keyframes moveIMG {
 	100% {
 		transform: rotateZ(360deg);
 	}
+}
+
+pre {
+	text-align: left;
+	margin: 0.5rem;
+	font-size: 15px;
+}
+
+#quickLinks {
+	text-align: center;
+	font-family: bebas;
+	font-size: 100px;
 }
 
 /* QUOTE DIV */
@@ -294,6 +387,8 @@ nav a:hover {
 	background-color: #CFB4A1;
 	text-align: center;
 	padding: 3.3rem;
+	width: auto;
+
 }
 
 .quoteDIV h1 {
@@ -324,6 +419,22 @@ nav a:hover {
 
 .quoteDIV h3 a:hover {
 	color: #89644D;
+}
+
+@media only screen and (max-width: 1000px) {
+.quoteDIV h1 {
+	font-family: playfairItalic;
+	color: #2F2520;
+	font-size: 20px;
+	animation-name: fade;
+	animation-duration: 5s;
+	animation-iteration-count: 1;
+}
+
+.quoteDIV h3 {
+	font-size: 15px;
+}
+
 }
 
 /* LOADER DIV */
