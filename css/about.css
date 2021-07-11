@@ -104,15 +104,14 @@ a {
 
 ul {
 	list-style-type: none;
-	margin-left: 7rem;
-	margin-top: 1rem;
+	margin: 1rem 0 0 5rem;
 	color: white;
 	font-family: montserratReg;
 	line-height: 1.5;
 	font-size: 20px;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1366px) {
 
 ul {
 	margin-left: 1rem;
@@ -161,7 +160,7 @@ nav a:hover {
 	}
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1366px) {
 
 nav a {
 	padding: 1rem;
@@ -180,20 +179,20 @@ nav a {
 .containerDIV {
 	display: flex;
 	flex-direction: row;
+	width: 100%;
+	height: auto;
 }
 
 .mainDIV {
 	background: linear-gradient(#CFB4A1, #825D4B);
+	width: auto;
+	height: auto;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1366px) {
 
 .containerDIV {
 	flex-direction: column;
-}
-
-.mainDIV {
-	padding-left: 0;
 }
 
 }
@@ -202,15 +201,16 @@ nav a {
 
 .aboutDIV {
 	padding-bottom: 3rem ;
-	margin: 3rem;
+	margin: 0 0 0 5rem;
 }
 
 .aboutDIV h1 {
 	font-family: bebas;
-	font-size: 200px;
+	font-size: 150px;
 	color: white;
 	line-height: 0.8;
-	margin-top: 20%;
+	margin: 8rem 6rem 0 0;
+
 }
 
 .aboutDIV h2 {
@@ -241,17 +241,16 @@ nav a {
 .aboutDIV h5 {
 	color: white;
 	font-family: montserratBold;
-	text-align: justify;
-	margin:  2rem 5rem 0 5rem;
+	text-align: left;
+	margin:  2rem 0 0 5rem;
 	line-height: 1;
 	font-size: 30px;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1366px) {
 
 .aboutDIV {
 	padding-bottom: 3rem;
-	padding-left: 2rem;
 }
 
 .aboutDIV h1 {
@@ -286,11 +285,13 @@ nav a {
 .sideDIV {
 	float: right;
 	background-color: #E3E3E3;
-	width: 550px;
+	width: auto;
+	height: auto;
 }
 
 .sideDIV img {
-	width: 400px;
+	width: 350px;
+	height: auto;
 	text-align: center;
 	padding:1rem 2rem 1rem 2.5rem;
 	margin-bottom: -5rem;
@@ -317,8 +318,8 @@ nav a {
 	font-family: montserratReg;
 	color: #89644D;
 	font-size: 20px;
-	margin: 10rem 2.5rem 0 2.5rem;
-	padding: 1rem 1rem 8rem 1rem;
+	margin: 5rem 2.5rem 0 2.5rem;
+	padding: 1rem 1rem 3rem 1rem;
 }
 
 .sideDIVs h3 a {
@@ -352,12 +353,13 @@ nav a {
 	color: white;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1366px) {
 
 .sideDIV {
 	width: 100%;
 	text-align: center;
 }
+
 
 .sideDIV img {
 	margin-bottom: 0;
@@ -377,9 +379,7 @@ nav a {
 }
 
 .sideDIVs h3 {
-	font-size: 20px;
-	margin: 8rem 2.5rem 0 2.5rem;
-	padding: 1rem 1rem 6rem 1rem;
+	display: none;
 }
 
 .sideDIVs h3 a {
@@ -392,7 +392,7 @@ nav a {
 }
 }
 
-@media only screen and (min-width: 900px) and (max-width: 1000px) {
+@media only screen and (min-width: 900px) and (max-width: 1366px) {
 .skillsmiParentDIV {
 	display: flex;
 	flex-direction: row;
@@ -432,7 +432,7 @@ nav a {
 	margin-top: 0.5rem;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1366px) {
 
 	.rating {
 		display: block;
@@ -501,7 +501,7 @@ nav a {
 	color: #89644D;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1366px) {
 
 .quoteDIV h1 {
 	font-family: playfairItalic;
