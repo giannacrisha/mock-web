@@ -112,7 +112,7 @@ ul {
 	font-size: 20px;
 }
 
-@media only screen and (max-width: 1366px) {
+@media only screen and (max-width: 1000px) {
 
 ul {
 	margin-left: 1rem;
@@ -161,7 +161,7 @@ nav a:hover {
 	}
 }
 
-@media only screen and (max-width: 1366px) {
+@media only screen and (max-width: 1000px) {
 
 nav a {
 	padding: 1rem;
@@ -172,19 +172,21 @@ nav a {
 
 /* MAIN DIV */
 
-.containerDIV {
-	display: flex;
-	flex-direction: row;
+.parentDIV {
 	width: 100%;
 	height: 100%;
 }
 
-.mainDIV {
-	background: linear-gradient(#CFB4A1, #825D4B);
-	padding-left: 5rem;
+.containerDIV {
+	display: flex;
+	flex-direction: row;
 }
 
-@media only screen and (max-width: 1366px) {
+.mainDIV {
+	background: linear-gradient(#CFB4A1, #825D4B);
+}
+
+@media only screen and (max-width: 1000px) {
 
 .containerDIV {
 	flex-direction: column;
@@ -245,7 +247,7 @@ nav a {
 	font-size: 30px;
 }
 
-@media only screen and (max-width: 1366px) {
+@media only screen and (max-width: 1000px) {
 
 .aboutDIV {
 	padding-bottom: 3rem;
@@ -350,7 +352,7 @@ nav a {
 	color: white;
 }
 
-@media only screen and (max-width: 1366px) {
+@media only screen and (max-width: 1000px) {
 
 .sideDIV {
 	width: 100%;
@@ -390,7 +392,7 @@ nav a {
 }
 }
 
-@media only screen and (min-width: 900px) and (max-width: 1366px) {
+@media only screen and (min-width: 900px) and (max-width: 1000px) {
 .skillsmiParentDIV {
 	display: flex;
 	flex-direction: row;
@@ -430,7 +432,7 @@ nav a {
 	margin-top: 0.5rem;
 }
 
-@media only screen and (max-width: 1366px) {
+@media only screen and (max-width: 1000px) {
 
 	.rating {
 		display: block;
@@ -499,7 +501,7 @@ nav a {
 	color: #89644D;
 }
 
-@media only screen and (max-width: 1366px) {
+@media only screen and (max-width: 1000px) {
 
 .quoteDIV h1 {
 	font-family: playfairItalic;
