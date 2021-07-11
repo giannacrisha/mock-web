@@ -124,7 +124,7 @@ nav {
 	animation-iteration-count: 1;
 	text-align: center;
 	color: white;
-	z-index: 1;
+	z-index: 99999;
 }
 
 nav a {
@@ -157,6 +157,44 @@ nav a:hover {
 	}
 }
 
+@media only screen and (max-width: 950px) {
+nav {
+	position: absolute;
+	animation-name: navBG;
+	animation-duration: 2;
+	animation-fill-mode: forwards;
+	text-align: center;
+	width: 100%;
+	padding-bottom: 1rem;
+}
+nav a {
+	padding: 1rem;
+	font-size: 25px;
+}
+
+@keyframes navBG {
+	0% {
+		transform: translateY(-60px);
+	}
+
+	30% {
+		opacity: 0;
+		transform: translateY(-60px);
+	}
+
+	100% {
+		background-color: #2F2520;
+	}
+}
+}
+
+@media only screen and (max-width: 1300px) {
+nav a {
+	font-size: 30px;
+	padding: 2rem;
+}
+}
+
 /* MAIN DIV */
 
 .containerDIV {
@@ -169,8 +207,9 @@ nav a:hover {
 .mainDIV {
 	background: linear-gradient(#CFB4A1, #825D4B);
 	color: #E3E3E3;
-	width: 75%;
 	padding-left: 5rem;
+	height: auto;
+	width: auto;
 }
 
 .mainDIV h1 {
@@ -189,9 +228,45 @@ nav a:hover {
 
 .sideDIV {
 	float: right;
-	background-color: #E3E3E3;
+	background-color: black;
 	height: 100%;
-	width: 550px;
+	width: auto;
+	height: auto;
+}
+
+@media only screen and (max-width: 950px) {
+.containerDIV {
+	flex-direction: column;
+}
+
+.mainDIV {
+	width: 100%;
+	padding-left: 0;
+}
+
+.mainDIV h1 {
+	font-family: bebas;
+	font-size: 100px;
+	line-height: 0.8;
+	margin-top: 20%;
+	text-align: left;
+	margin-left: 7rem;
+}
+
+.mainDIV h2 {
+	font-family: playfairItalic;
+	font-size: 45px;
+	line-height: 0.5;
+	color: white;
+	text-align: left;
+	margin-left: 6rem;
+}
+
+
+.mainDIV h3 {
+	padding-left: 5rem;
+}
+
 }
 /* SELECT DIV */
 
@@ -199,7 +274,7 @@ nav a:hover {
 	text-align: center;
 }
 #select h2 {
-	color: #E3E3E3;
+	color: #2F2520;
 	padding: 1rem;
 }
 
@@ -210,19 +285,29 @@ nav a:hover {
 	text-align: justify;
 	margin: 0 5rem 0 5rem;
 	text-indent: 1in;
-	font-size: 25px;
+	font-size: 20px;
 }
 
 #select h3 a {
 	color: white;
 }
 
+@media only screen and (max-width: 950px) {
+
+#select h3 {
+	line-height: 2;;
+	margin: 0 2rem 0 2rem;
+	text-indent: 1in;
+	font-size: 15px;
+}
+
+}
+
 /* PROJECT INFO DIV */
 
 .infoContainer {
-	padding-bottom: 3rem ;
 	text-align: center;
-	margin: -5rem 0 0 -5rem;
+	margin: -2rem 0 0 -5rem;
 	color: white;
 	height: 47rem;
 }
@@ -270,6 +355,56 @@ nav a:hover {
 	margin-top: 3em;
 }
 
+@media only screen and (max-width: 950px) {
+.infoContainer {
+	padding-bottom: 2rem ;
+	height: 40rem;
+	font-size: 20px;
+	overflow: scroll;
+}
+
+.infoDIV {
+	display: none;
+	padding: 1rem;
+	overflow: scroll;
+}
+
+.infoDIV h1 {
+	color: white;
+}
+
+.infoDIV h2 a{
+	color: #2F2520;
+	transition: 0.5s;
+}
+
+.infoDIV h2 a:hover {
+	color: #e3e3e3;
+}
+
+.infoDIV h3 {
+	color: white;
+	font-family: montserratReg;
+	line-height: 2;
+	text-align: justify;
+	margin: 2rem 2rem 0 2rem;
+	font-size: 15px;
+	overflow: scroll;
+}
+
+.infoDIV h3 a {
+	color: #E3E3E3;
+	transition: 0.5;
+}
+
+.infoDIV h3 a:hover {
+	color: white;
+}
+
+.infoDIV img {
+	height: 200px;
+}
+}
 /* PROJECTS SIDE DIV */
 
 .projectsDIV {
@@ -279,6 +414,8 @@ nav a:hover {
 
 .projectsDIV img {
 	width: 100%;
+	max-width: 100%;
+	height: auto;
 	transition: 0.5s;
 	opacity: 0.3;
 	margin-bottom: -4px;
@@ -286,6 +423,14 @@ nav a:hover {
 
 .projectsDIV img:hover{
 	opacity: 1;
+}
+
+@media only screen and (max-width: 950px) {
+	.projectsDIV {
+	text-align: center;
+	background-color: black;
+	margin: 0 -1.5rem 0 0;
+}
 }
 
 /* QUOTE DIV */
@@ -325,6 +470,23 @@ nav a:hover {
 
 .quoteDIV h3 a:hover {
 	color: #89644D;
+}
+
+@media only screen and (max-width: 950px) {
+
+.quoteDIV h1 {
+	font-family: playfairItalic;
+	color: #2F2520;
+	font-size: 20px;
+	animation-name: fade;
+	animation-duration: 5s;
+	animation-iteration-count: 1;
+}
+
+.quoteDIV h3 {
+	font-size: 15px;
+}
+
 }
 
 /* PRE-LOADER */
