@@ -286,8 +286,12 @@ nav a {
 @media only screen and (min-height: 1080px) {
 
 .homeDIV h1 {
-	font-size: 400px;
+	font-size: 300px;
 	padding-top: 12rem;
+}
+
+.homeDIV h2 {
+	font-family: 200px;
 }
 
 .homeDIV {
