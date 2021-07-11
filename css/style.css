@@ -277,6 +277,18 @@ nav a {
 
 }
 
+@media only screen and (min-height: 1080px) {
+
+.homeDIV h1 {
+	font-size: 200px;
+	padding-top: 20rem;
+}
+
+.homeDIV {
+	width: 100%;
+	padding: 0 0 15rem 0;
+}
+}
 
 /* QUOTE DIV */
 
@@ -356,7 +368,6 @@ nav a {
 }
 
 }
-
 
 
 /* LOADER DIV */
