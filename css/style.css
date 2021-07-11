@@ -153,6 +153,12 @@ nav a {
 }
 }
 
+@media only screen and (min-height: 1080px) {
+nav a {
+	padding: 3rem;
+	font-size: 35px;
+}
+}
 
 
 /* HOME DIV */
@@ -280,8 +286,8 @@ nav a {
 @media only screen and (min-height: 1080px) {
 
 .homeDIV h1 {
-	font-size: 200px;
-	padding-top: 20rem;
+	font-size: 250px;
+	padding-top: 17rem;
 }
 
 .homeDIV {
