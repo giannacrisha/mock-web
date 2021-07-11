@@ -124,7 +124,6 @@ nav {
 	animation-iteration-count: 1;
 	text-align: center;
 	color: white;
-	z-index: 99999;
 }
 
 nav a {
@@ -157,11 +156,12 @@ nav a:hover {
 	}
 }
 
+
 @media only screen and (max-width: 950px) {
 nav {
 	position: absolute;
 	animation-name: navBG;
-	animation-duration: 2;
+	animation-duration: 2s;
 	animation-fill-mode: forwards;
 	text-align: center;
 	width: 100%;
@@ -169,11 +169,11 @@ nav {
 }
 nav a {
 	padding: 1rem;
-	font-size: 25px;
+	font-size: 20px;
 }
-
 @keyframes navBG {
 	0% {
+		opacity: 0;
 		transform: translateY(-60px);
 	}
 
@@ -183,15 +183,17 @@ nav a {
 	}
 
 	100% {
+		opacity: 1;
 		background-color: #2F2520;
+		transform: translateY(0px);
 	}
 }
 }
 
-@media only screen and (max-width: 1300px) {
-nav a {
-	font-size: 30px;
+@media only screen and (min-width: 950px) {
+	nav a {
 	padding: 2rem;
+	font-size: 25px;
 }
 }
 
