@@ -215,12 +215,12 @@ nav a {
 
 @keyframes fadeInBot {
 	0% {
-		transform: translateY(165px);
+		transform: translateY(170px);
 		color: #e3e3e3;
 	}
 
 	30% {
-		transform: translateY(165px);
+		transform: translateY(170px);
 		color: #e3e3e3;
 	}
 
