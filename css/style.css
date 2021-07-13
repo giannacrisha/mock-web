@@ -1,8 +1,7 @@
 /* MONTSERRAT FONTS */
-
 @font-face {
-	font-family: montserratBlack;
-	src: url(../fonts/Montserrat/Montserrat-Black.ttf);
+	font-family: montserratReg;
+	src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
 }
 
 @font-face {
@@ -21,8 +20,8 @@
 }
 
 @font-face {
-	font-family: montserratReg;
-	src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+	font-family: montserratBlack;
+	src: url(../fonts/Montserrat/Montserrat-Black.ttf);
 }
 
 /* PLAYFAIR FONTS */
@@ -43,7 +42,7 @@
 }
 
 @font-face {
-	font-family: playfairBoldItalic;
+	font-family: playfairSemiBoldItalic;
 	src: url(../fonts/Playfair/semiboldi.ttf);
 }
 
@@ -94,7 +93,6 @@
 a {
 	text-decoration-line: none;
 	text-decoration: none;
-	text-decoration-color: none;
 	text-decoration-style: none;
 }
 
@@ -150,13 +148,6 @@ nav {
 nav a {
 	padding: 3rem;
 	font-size: 25px;
-}
-}
-
-@media only screen and (min-height: 1080px) {
-nav a {
-	padding: 3rem;
-	font-size: 40px;
 }
 }
 
@@ -281,23 +272,6 @@ nav a {
 	}
 }
 
-}
-
-@media only screen and (min-width: 1680px) {
-
-.homeDIV h1 {
-	font-size: 300px;
-	padding-top: 12rem;
-}
-
-.homeDIV h2 {
-	font-family: 100px;
-}
-
-.homeDIV {
-	width: 100%;
-	padding: 0 0 12rem 0;
-}
 }
 
 /* QUOTE DIV */
